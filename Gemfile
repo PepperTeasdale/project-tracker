@@ -14,6 +14,7 @@ gem "haml-rails", "~> 2.0"
 gem "bootsnap", require: false
 gem "honeybadger"
 gem "pg"
+gem "sqlite3"
 gem "puma"
 gem "rack-canonical-host"
 gem "rails", "~> 6.0.0"
@@ -24,6 +25,9 @@ gem "sprockets", "< 4"
 gem "title"
 gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]
 gem "webpacker"
+gem 'net-smtp'
+gem 'net-imap'
+gem 'net-pop'
 
 group :development do
   gem "listen"
