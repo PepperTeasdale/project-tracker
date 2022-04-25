@@ -10,6 +10,7 @@ ruby "3.1.2"
 
 gem "autoprefixer-rails"
 
+gem "devise"
 gem "haml-rails", "~> 2.0"
 gem "bootsnap", require: false
 gem "honeybadger"
@@ -41,6 +42,8 @@ group :development, :test do
 end
 
 group :test do
+  gem "rspec"
+  gem "rspec-rails"
   gem "formulaic"
   gem "launchy"
   gem "timecop"
